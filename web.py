@@ -20,6 +20,6 @@ def view():
    # for row in myrow:
    #     print(row)
    # contactis = np.array(myrow)
-    return render_template("movie.html", message="Hello", contacts=contact);
+    return render_template("movie.html", message="Hello", contacts=contact)
 if __name__ == '__main__':
     app.run(host='0.0.0.0',port=80, debug=True)
